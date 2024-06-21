@@ -65,6 +65,9 @@ while True:
                      ('El asiento esta ocupado')
             except:
                  print('ERROR, debe ser un numero entero')
+
+        print ('Su edad es',edad)
+        if edad <= 18
         
         Pasajeros = {
             "NOMBRE":nombre,
@@ -81,6 +84,10 @@ while True:
         else:
             for x in Pasajeros:
                 print(f"Nombre",{x["NOMBRE"]})
+                print(f"Edad",{x["EDAD"]})
+                print(f"Telefono",{x["TELEFONO"]})
+                print(f"Fila",{x["FILA"]})
+                print(f"Columna",{x["COLUMNA"]})
     elif opc==4:
         pass
     else:
